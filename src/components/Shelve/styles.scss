@@ -1,0 +1,22 @@
+.item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    max-width: 250px;
+  }
+
+  span {
+    text-align: center;
+  }
+}
+
+.shelve-container {
+  margin-bottom: 50px;
+
+  .swiper-pagination {
+    position: initial !important;
+  }
+}
